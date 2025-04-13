@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="note">
+                <div class="close">
+                    <button class="close-btn">
+                        <i class="uil uil-times"></i>
+                    </button>
+                </div>
+                <div>
+                    <label for="title">Title</label><br><br>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div>
+                    <label for="description">Description</label><br><br>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+                
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+
+        <div class="options">
+            <div class="add">
+                <button class="add-btn">
+                    <i class="uil uil-plus"></i>
+                </button>
+                <p>Add a new note</p>
+            </div>
+            <div class="view">
+                <button class="icon-btn" onclick="window.location.href = 'view.html'" id="view">
+                    <i class="uil uil-user"></i>
+                </button>
+                <p>View notes</p>
+            </div>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
